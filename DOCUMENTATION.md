@@ -11,6 +11,7 @@ Este arquivo serve como índice para toda a documentação do projeto AWS Livene
 - **[README_FACE_LIVENESS.md](README_FACE_LIVENESS.md)** - Documentação completa em Português
 - **[README_FACE_LIVENESS_EN.md](README_FACE_LIVENESS_EN.md)** - Complete documentation in English
 - **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)** - Guia de integração em outros projetos
+- **[SECURITY_GUIDE.md](SECURITY_GUIDE.md)** - Guia de segurança e rotação de credenciais
 
 ## 🎯 O que cada documentação contém
 
@@ -56,6 +57,14 @@ Este arquivo serve como índice para toda a documentação do projeto AWS Livene
 - Gerenciamento de permissões
 - Testes e deploy
 
+### SECURITY_GUIDE.md (Segurança)
+- Rotações seguras de credenciais AWS
+- Estratégias de autenticação
+- Configurações IAM seguras
+- Monitoramento e auditoria
+- Criptografia de dados
+- Compliance e testes de segurança
+
 ## 🚀 Início Rápido
 
 ### Para Desenvolvedores Brasileiros
@@ -63,12 +72,14 @@ Este arquivo serve como índice para toda a documentação do projeto AWS Livene
 2. Configure o projeto seguindo as instruções
 3. Consulte **[README_FACE_LIVENESS.md](README_FACE_LIVENESS.md)** para detalhes técnicos
 4. Use **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)** para integrar em outros projetos
+5. Implemente **[SECURITY_GUIDE.md](SECURITY_GUIDE.md)** para rotação segura de credenciais
 
 ### For International Developers
 1. Read **[README.md](README.md)** for overview
 2. Configure the project following the instructions
 3. Consult **[README_FACE_LIVENESS_EN.md](README_FACE_LIVENESS_EN.md)** for technical details
 4. Use **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)** to integrate into other projects
+5. Implement **[SECURITY_GUIDE.md](SECURITY_GUIDE.md)** for secure credential rotation
 
 ## 📋 Checklist de Configuração
 

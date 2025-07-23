@@ -16,6 +16,7 @@ import {
   DeviceEventEmitter,
   PermissionsAndroid,
   Platform,
+  ScrollView,
 } from 'react-native';
 import AwsLivenessTurboModules from './src';
 
@@ -215,7 +216,11 @@ function App(): React.JSX.Element {
         backgroundColor={backgroundStyle.backgroundColor}
       />
 
-      <View style={styles.content}>
+      <ScrollView
+        style={styles.scrollView}
+        contentContainerStyle={styles.content}
+        showsVerticalScrollIndicator={false}
+      >
         {/* Header */}
         <View style={styles.header}>
           <Text style={[styles.title, {color: isDarkMode ? '#ffffff' : '#1a1a1a'}]}>
@@ -404,7 +409,7 @@ function App(): React.JSX.Element {
             </TouchableOpacity>
           </View>
         )}
-      </View>
+      </ScrollView>
     </SafeAreaView>
   );
 }
@@ -413,8 +418,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  content: {
+  scrollView: {
     flex: 1,
+  },
+  content: {
+    flexGrow: 1,
     padding: 20,
     justifyContent: 'center',
   },
