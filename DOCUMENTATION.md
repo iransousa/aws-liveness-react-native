@@ -12,6 +12,9 @@ Este arquivo serve como índice para toda a documentação do projeto AWS Livene
 - **[README_FACE_LIVENESS_EN.md](README_FACE_LIVENESS_EN.md)** - Complete documentation in English
 - **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)** - Guia de integração em outros projetos
 - **[SECURITY_GUIDE.md](SECURITY_GUIDE.md)** - Guia de segurança e rotação de credenciais
+- **[PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md)** - Guia de publicação no npm
+- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Guia de resolução de problemas
+- **[DEPENDENCIES_ANALYSIS.md](DEPENDENCIES_ANALYSIS.md)** - Análise e otimização de dependências
 
 ## 🎯 O que cada documentação contém
 
@@ -65,6 +68,29 @@ Este arquivo serve como índice para toda a documentação do projeto AWS Livene
 - Criptografia de dados
 - Compliance e testes de segurança
 
+### PUBLISHING_GUIDE.md (Publicação)
+- Guia completo de publicação no npm
+- Scripts automatizados de publicação
+- Checklist de verificação
+- Troubleshooting comum
+- Melhores práticas
+- Monitoramento pós-publicação
+
+### TROUBLESHOOTING.md (Problemas)
+- Resolução de problemas comuns
+- Diagnóstico de erros
+- Soluções avançadas
+- Logs de debug
+- Reset completo
+- Suporte e contato
+
+### DEPENDENCIES_ANALYSIS.md (Dependências)
+- Análise detalhada das dependências
+- Otimização de tamanho do APK
+- Dependências necessárias vs desnecessárias
+- Comparação de versões
+- Benefícios da otimização
+
 ## 🚀 Início Rápido
 
 ### Para Desenvolvedores Brasileiros
@@ -73,6 +99,8 @@ Este arquivo serve como índice para toda a documentação do projeto AWS Livene
 3. Consulte **[README_FACE_LIVENESS.md](README_FACE_LIVENESS.md)** para detalhes técnicos
 4. Use **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)** para integrar em outros projetos
 5. Implemente **[SECURITY_GUIDE.md](SECURITY_GUIDE.md)** para rotação segura de credenciais
+6. Use **[PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md)** para publicar no npm
+7. Consulte **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** se encontrar problemas
 
 ### For International Developers
 1. Read **[README.md](README.md)** for overview
@@ -80,6 +108,8 @@ Este arquivo serve como índice para toda a documentação do projeto AWS Livene
 3. Consult **[README_FACE_LIVENESS_EN.md](README_FACE_LIVENESS_EN.md)** for technical details
 4. Use **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)** to integrate into other projects
 5. Implement **[SECURITY_GUIDE.md](SECURITY_GUIDE.md)** for secure credential rotation
+6. Use **[PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md)** to publish to npm
+7. Check **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** if you encounter issues
 
 ## 📋 Checklist de Configuração
 

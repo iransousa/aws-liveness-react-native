@@ -1,14 +1,53 @@
 {
-  "name": "AwsLivenessTurboModules",
-  "version": "0.0.1",
-  "private": true,
+  "name": "aws-liveness-turbo-modules",
+  "version": "1.0.0",
+  "description": "React Native Turbo Module for AWS Amplify Face Liveness Detection",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src/",
+    "android/",
+    "ios/",
+    "README.md",
+    "README_FACE_LIVENESS.md",
+    "README_FACE_LIVENESS_EN.md",
+    "INTEGRATION_GUIDE.md",
+    "SECURITY_GUIDE.md",
+    "DOCUMENTATION.md"
+  ],
+  "keywords": [
+    "react-native",
+    "aws",
+    "amplify",
+    "face-liveness",
+    "biometrics",
+    "authentication",
+    "kotlin",
+    "turbo-module",
+    "android",
+    "ios"
+  ],
   "author": "Iran Sousa <protesto.hc@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/aws-liveness-turbo-modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/aws-liveness-turbo-modules/issues"
+  },
+  "homepage": "https://github.com/yourusername/aws-liveness-turbo-modules#readme",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "publish-package": "chmod +x scripts/publish.sh && ./scripts/publish.sh",
+    "postinstall": "node scripts/postinstall.js",
+    "setup-manual": "node scripts/setup-manual.js"
   },
   "codegenConfig": {
     "name": "AwsLivenessTurboModules",
@@ -17,6 +56,10 @@
     "android": {
       "javaPackageName": "com.aws.liveness.turbo.modules"
     }
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.70.0"
   },
   "dependencies": {
     "react": "18.3.1",

@@ -1,0 +1,53 @@
+# Development files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+*.tgz
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+__tests__/
+*.test.js
+*.test.ts
+*.test.tsx
+jest.config.js
+
+# Development configs
+.eslintrc.js
+.prettierrc
+.babelrc
+metro.config.js
+
+# Git
+.git/
+.gitignore
+
+# Documentation (keep only the main ones)
+# README.md is included
+# README_FACE_LIVENESS.md is included
+# README_FACE_LIVENESS_EN.md is included
+# INTEGRATION_GUIDE.md is included
+# SECURITY_GUIDE.md is included
+# DOCUMENTATION.md is included
+
+# Example app (not needed in npm package)
+App.tsx
+index.js
+app.json
+
+# Development scripts
+Gemfile 
